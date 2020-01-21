@@ -18,8 +18,7 @@
   "lint-staged": {
     "*.{ts,tsx}": [
       "yarn pretty",
-      "yarn lint",
-      "git add"
+      "yarn lint"
     ]
   },
   "dependencies": {
