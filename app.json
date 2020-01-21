@@ -3,7 +3,7 @@
     "name": "expo-typescipt-template",
     "slug": "expo-typescipt-template",
     "privacy": "public",
-    "sdkVersion": "31.0.0",
+    "sdkVersion": "35.0.0",
     "platforms": [
       "ios",
       "android"
