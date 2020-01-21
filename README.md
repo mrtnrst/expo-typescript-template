@@ -16,7 +16,7 @@ A quick template for using Typescipt and Expo with React Native. _NOTE: This tem
 
   At the root project directory level run the following command:
   ```bash
-  npm run init
+  sh ./bin/init.sh
   ```    
 ## Running The Project
 To run the TS codebase, run for desired platform:
