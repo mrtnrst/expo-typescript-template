@@ -18,7 +18,7 @@ showResponses() {
       printf "Installing $blue$2$escape... \n"
       case $2 in
         expo-cli)
-          npm install -g expo-cli
+          yarn install -g expo-cli
           ;;
         yarn)
           HOMEBREW_NO_AUTO_UPDATE=1 brew install $2
@@ -38,7 +38,7 @@ showResponses $? yarn
 
 printf "$escape"
 printf "Checking that $blue'expo-cli'$escape is installed..."
-expo-cli -v &> /dev/null
+expo-cli -V &> /dev/null
 showResponses $? expo-cli
 
 printf "$escape"
