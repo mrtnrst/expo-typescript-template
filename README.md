@@ -45,7 +45,7 @@ The structure of each folder should be as follows:
 2. `presenter.tsx`
     * The main logic and export of the component.
 3. `styled.tsx`
-    * Any internal styled `glamorous` components and stylesheets the `presenter.tsx` file may use.
+    * Any internal styled `emotion` components and stylesheets the `presenter.tsx` file may use.
     * NOTE: Avoid the `react-native/StyleSheet` if possible.
 #### Nested Folders:
 Each specific `screen` folder should mimic the root level (`src`) folder, for any screen-specific needs. For example:
