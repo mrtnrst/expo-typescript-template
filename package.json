@@ -6,8 +6,8 @@
     "eject": "expo eject",
     "test": "TZ=America/Chicago jest",
     "test:watch": "TZ=America/Chicago jest --watch",
-    "pretty": "yarn prettier --write 'src/**/*.{ts,tsx}'",
-    "lint": "yarn eslint 'src/**/*.{ts,tsx}'"
+    "pretty": "yarn prettier",
+    "lint": "yarn eslint"
   },
   "husky": {
     "hooks": {
@@ -16,8 +16,8 @@
   },
   "lint-staged": {
     "*.{ts,tsx}": [
-      "yarn pretty",
-      "yarn lint"
+      "yarn pretty --write",
+      "yarn lint --fix"
     ]
   },
   "dependencies": {
