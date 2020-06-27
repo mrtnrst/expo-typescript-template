@@ -1,21 +1,14 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Text } from 'react-native';
 
-export default class Home extends React.Component {
-  public render() {
-    return (
-      <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
-      </View>
-    );
-  }
-}
+import { Container } from './styled';
 
-const styles = StyleSheet.create({
-  container: {
-    alignItems: 'center',
-    backgroundColor: '#fff',
-    flex: 1,
-    justifyContent: 'center'
-  }
-});
+const Home: React.FC = () => {
+  return (
+    <Container>
+      <Text>Open up App.js to start working on your app!</Text>
+    </Container>
+  );
+};
+
+export default Home;
