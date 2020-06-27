@@ -1,8 +1,6 @@
 import React from 'react';
 import Navigation from './navigation';
 
-export default class App extends React.Component {
-  public render() {
-    return <Navigation />;
-  }
-}
+const App: React.FC = () => <Navigation />;
+
+export default App;
