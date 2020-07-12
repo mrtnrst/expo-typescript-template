@@ -6,10 +6,10 @@ import { Home as HomeScreen } from '../screens';
 const RootStack = createStackNavigator({
   Home: {
     navigationOptions: () => ({
-      header: undefined
+      header: undefined,
     }),
-    screen: HomeScreen
-  }
+    screen: HomeScreen,
+  },
 });
 
 export default createAppContainer(RootStack);
