@@ -1,3 +1,4 @@
+import React from 'react';
 import { render, toJSON } from '@testing-library/react-native';
 
 import Home from '../presenter';
